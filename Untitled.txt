@@ -1,0 +1,142 @@
+
+
+margin-bottom: 50px;
+
+
+
+
+.signin{
+background: transparent;
+border:none;
+}
+
+
+
+     
+@keyframes rotate{
+         0%{
+             transform: rotate(0deg);
+           }
+           100%{
+                transform: rotate(360deg);
+   }
+}
+
+
+
+
+
+.category{
+width: 100%;
+display: flex;
+justify-content:center;
+}
+.category .list-items{
+  width: 90%
+  position: relative;
+  margin-top: 50px;
+}
+.category .list-items h3{
+    font-size: 20px;
+    font-weight:600;
+    font-family:sans-serif;
+    margin-bottom: 70px;
+}
+
+.category .list-items .card-list{
+     display: grid;
+grid-template-columns:repeat(4,1fr);
+}
+    
+.category .card-list .card{
+width: 200px;
+height:auto;
+display:block;
+padding:10px;
+border-radius: 10px;
+position:relative;
+background: grey;
+outline: 2px solid pink;
+}
+
+.category .card-list .card img{
+width: 100px;
+height:auto;
+bottom:140px;
+left: 50px;
+object-fit:cover;
+object-position:center;
+background-repeat:no-repeat;
+position:absolute;
+box-shadow: 0 20px 20px maroon;
+border-radius: 50%;
+}
+
+
+.category .card-list .card .food-title{
+padding: 40px 0 10px;
+}
+
+.category .card-list .card .food-title h1{
+text-align: center;
+font-weight:bold;
+font-size:16px;
+font-family:sans-serif;
+}
+
+.category .card .desc-food p{
+font-size:13px;
+text-align: center;
+font-weight:500;
+font-family:sans-serif;
+}
+
+.category .card .price{
+   display: flex;
+   align-item: center;
+   justify-content: space-between;
+}
+
+.category .card .price span{
+   font-weight: 600;
+font-family:sans-serif;
+}
+   
+
+.category .card .price span .plus-icon{
+    color:Red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+<section class="category">
+ <div class="list-items">
+ <h3>Popular Dishes</h3>
+<div class="card-list">
+<div class="card">
+<img src="img.b2.jpg" alt="">
+<div class="food-title">
+<h1>Breef Burger</h1>
+</div>
+<div class="desc-food">
+<p>Quaerat </P>
+
+</div>
+<div class="price">
+<span>$10.99</span><span><i class='bx bxs-plus-circle plus icon'></i></span>
+</div>
+</div>
+</div>
+</div>
+
+
+     
